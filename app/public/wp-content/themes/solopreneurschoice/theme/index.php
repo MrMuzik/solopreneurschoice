@@ -16,7 +16,7 @@ get_header();
 ?>
 
 	<section id="primary">
-		<main id="main container">
+		<main id="main container test">
 
 		<?php
 		if ( have_posts() ) {
