@@ -14,4 +14,5 @@ jobs:
         REMOTE_HOST: ssh.getflywheel.com
         REMOTE_USER: ${{ secrets.SSH_USER }}
         ARGS: -rltgoDzvO --exclude .git --exclude .github
+        SOURCE: /app/public/wp-content/themes/
         TARGET: /www/wp-content/themes/
